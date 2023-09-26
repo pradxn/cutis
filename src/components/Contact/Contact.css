@@ -1,0 +1,19 @@
+.contact {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  
+    @media screen and (max-width: 600px) {
+      .contact {
+        margin-right: 0;
+        margin-top: 10px;
+      }
+    }
+    

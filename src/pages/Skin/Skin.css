@@ -1,0 +1,48 @@
+/* Hair.css */
+
+.skin-container {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skin-item {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: black;
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px royalblue; /* Apply a box shadow */
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+  a:hover {
+    border-bottom: 1px solid #FFFFFF;
+  }
+  
+  .skin-item:hover {
+    transform: scale(1.05); /* Add a scale effect on hover */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .skin-icon {
+    width: 35px; /* Adjust the width of the icon */
+    height: 35px; /* Adjust the height of the icon */
+    margin-right: 10px; /* Add space between the icon and text */
+  }
+  

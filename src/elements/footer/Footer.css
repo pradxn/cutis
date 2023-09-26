@@ -1,0 +1,21 @@
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 0.01%;
+  }
+
+  .footer-div>p{
+    color: gray;
+  }
+    
+  @media only screen and (max-width: 768px) {
+    .footer-div {
+      flex-direction: column;
+    }
+  }
+    

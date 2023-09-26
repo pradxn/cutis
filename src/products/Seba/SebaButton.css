@@ -1,0 +1,17 @@
+.seba-button {
+    position: absolute;
+    top: calc(75% + 10px); /* Adjust the spacing as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px calc(15%);
+    border-radius: 50px;
+    font-size: 26px;
+    background-color: white;
+    color: black;
+    border: none;
+  }
+
+  .seba-button a{
+    text-decoration: none;
+    color: black;
+  }

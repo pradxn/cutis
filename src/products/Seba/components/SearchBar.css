@@ -1,0 +1,109 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 38px;
+  color: royalblue;
+}
+
+.input-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  background-color: white;
+  margin-top: 20px;
+}
+
+#search-icon {
+  color: royalblue;
+  margin-right: 10px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  flex: 1;
+  outline: none;
+}
+
+.send-button {
+  background-color: white;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: white;
+}
+
+.result-container {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: royalblue;
+  color: white;
+}
+
+.ing-head{
+  color: black;
+}
+
+.ingredients-container {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  color: white;
+}
+
+.toxic-ingredients-container {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  align-items: start;
+  color: red;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+table tr {
+  background-color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background-color: black;
+}

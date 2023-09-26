@@ -1,0 +1,82 @@
+------------------------------Main Idea------------------------------
+
+EWG but for India
+
+https://www.ewg.org/sunscreen/about-the-sunscreens/1020664/Neogen_Dermalogy_Day-light_Protection_Airy_Sunscreen%2C_SPF_50/
+
+Main idea of this platform is this make users enter their SPF and 
+Moisturizer name, then we would process it and give them if it contains some
+harmful ingredients for skin or blood
+
+eg: if a product contains retinol: display a disclaimer that pregnent women
+and lacting mothers should not use it
+
+------------------------------Website UI rough idea------------------
+
+1. enter / select your product name
+
+2. we will display if it has any harmful content or grade them
+one way:
+    A+ -> has no harmful ingredients OR whatever it has is negligible / ineffective
+    A -> has 1-2 harmful ingredients OR whatever it has is negligible in a way
+    B -> has 3 harmful ingredients OR whatever it has is damaging
+    C -> has 4 harmful ingredients OR whatever it has is damaging in long term
+    D -> has 5 harmful ingredients OR whatever it has is harmful
+    F -> has 5< harmful ingredients OR harmful af
+another way:
+    0-10: based on harmone disrupting chemicals, cancer causing agents,
+    skin allergies, and also consider UVA & UVB protection rating and
+    misleading claims by manufacturer and based on long term exposure to
+    some ingredients
+    
+3. a page where we display A+ products
+
+4. also make blogs on skin-care, collab with dermatologists, ideal ranges
+for each ingredients for general skin unless recommended by dermatologists
+eg: niacinaminde ideal range is 2%-5%
+
+5. FUTURE: select your skin concern and get recommended products or ingredients
+
+--------------------------------Money--------------------------------
+
+1. Advertising
+2. Freemium: make this as an API so someone can use it in their project
+3. Marketing: selling other better products
+4. Data-Mining: users data for third-parties for marketing, only email
+5. Donations: donate to website development
+6. Sponsorships
+
+--------------------------------Tech---------------------------------
+
+HTML & MERN: front-end and databases
+Python: for scanning data and adding it to databases
+JS: for API
+
+try AWS Textract for extracting data, if it costs alot, then make
+an algorithm for extracting data from an image
+
+---------------------------------------------------------------------------
+
+1. select your spf/moisturizer
+2. results will be displayed with product picture, full name, its grade, and 
+toxic chemicals list: ingredients and their harmful effects
+
+working:
+1. every product has a separate document, compare those with another document which contains toxic 
+ingredients lists
+
+product-1: {a,b,c,d}
+product-2: {a,b,d,e}
+toxic: {c,t,g}
+
+return found {c}, and what it causes to skin
+
+2. all products are in a single document like document[product] -> compare it with another document containing
+toxic chemicals list & return whatever is matched
+
+---------------------------------------------------------------------------
+
+{/* images with information */}
+{/* https://kinsta.com/blog/website-color-schemes/ */}
+{/* https://99designs.com/blog/tips/website-color-schemes/ */}
+{/* a total blank page like Google. name, search bar or upload then results */}

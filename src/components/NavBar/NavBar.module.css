@@ -1,0 +1,89 @@
+.NavBar {
+    background: #000000;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the entire navbar horizontally */
+    align-items: center;
+}
+
+.NavBar nav ul {
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Add this line to make the navigation items flex containers */
+    justify-content: center; /* Center the navigation items horizontally */
+}
+
+.NavBar nav ul li {
+    margin: 20px;
+}
+
+.NavBar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.NavBar nav ul li a:hover {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.NavBar .MobileNavigation {
+    display: none;
+}
+
+.NavBar .Navigation {
+    justify-content: center;
+    align-self: center;
+}
+
+/* Style for the NavLinks component */
+.NavLinks {
+    margin: 10px;
+    margin-top: 10px;
+  }
+  
+  .NavLinks ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the list horizontally */
+  }
+  
+  .NavLinks li {
+    margin: 0 20px;
+  }
+  
+  .NavLinks a {
+    text-decoration: none;
+    color: #333; /* Change the link color */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  }
+  
+  .NavLinks a:hover {
+    color: white; /* Change the link color on hover */
+  }
+  
+
+@media (max-width: 990px) {
+    .NavBar .Navigation {
+        display: none;
+    }
+
+    .NavBar .MobileNavigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NavBar .MobileNavigation .Hamburger {
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+    }
+}

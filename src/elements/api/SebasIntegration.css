@@ -1,0 +1,14 @@
+.sebas-integration-container {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .sebas-integration-container h3 {
+    font-size: 24px; /* Adjust the font size as needed */
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the text color */
+  }
+  
